@@ -8,7 +8,9 @@ y += vsp;
 if (slow_key){
 	slow_mode = true;
 }
-if slow_mode == true 	slow_mode_counter++;
+
+if slow_mode == true  slow_mode_counter++;
+
 if (slow_mode_counter >= 2*room_speed && slow_mode == true){
 	slow_mode = false;
 	slow_mode_counter = 0;

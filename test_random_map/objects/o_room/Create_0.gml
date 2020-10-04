@@ -7,11 +7,17 @@ width = (room_width - delete_blocks* wall_size) div wall_size;
 height = (room_height - delete_blocks*wall_size) div wall_size;
 width_start = (0 + delete_blocks*wall_size) div wall_size;
 height_start = (0 + delete_blocks*wall_size) div wall_size;
-steps = 1000;
+steps = 300;
 
-player_x = 
+player_x = random_range(0 + (delete_blocks -1)*wall_size,room_width - delete_blocks*wall_size);
+player_y = choose(0 + (delete_blocks - 1)*wall_size,room_height - (delete_blocks - 0)*wall_size);
+instance_create_layer(player_x,player_y,"Player",o_player);
 
-
+key_x = random_range(0 + (delete_blocks -1)*wall_size,room_width - delete_blocks*wall_size);
+key_y = 0;
+if player_y == 0 + (delete_blocks - 1)*wall_size key_y = room_height - (delete_blocks - 0)*wall_size;
+else if player_y == room_height - (delete_blocks - 0)*wall_size key_y = 0 + (delete_blocks - 1)*wall_size;
+instance_create_layer(key_x,key_y,"Player",o_key);
 
 for ( xx = width_start ; xx < width;xx++){
 	for ( yy = height_start; yy < height; yy++){

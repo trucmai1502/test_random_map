@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_key",
-    "path": "sprites/s_key/s_key.yy",
+    "name": "s_bullet",
+    "path": "sprites/s_bullet/s_bullet.yy",
   },
   "solid": false,
   "visible": true,
@@ -20,9 +20,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"parent":{"name":"o_key","path":"objects/o_key/o_key.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -30,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_key",
+  "name": "o_bullet",
   "tags": [],
   "resourceType": "GMObject",
 }

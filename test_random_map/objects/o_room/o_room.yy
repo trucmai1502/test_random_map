@@ -1,11 +1,11 @@
 {
-  "spriteId": {
+  "spriteId": null,
+  "solid": false,
+  "visible": false,
+  "spriteMaskId": {
     "name": "s_wall",
     "path": "sprites/s_wall/s_wall.yy",
   },
-  "solid": false,
-  "visible": false,
-  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

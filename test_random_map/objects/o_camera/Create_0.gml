@@ -1,3 +1,4 @@
+
 camera = view_camera[0];
 follow = o_player;
 

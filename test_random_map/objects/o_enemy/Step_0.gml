@@ -1,12 +1,17 @@
-if(o_player.slow_mode == true){
-	path_speed =  1;
+/// @desc Enemy
+
+if instance_exists(o_player){
+	if(o_player.slow_mode == true){
+		path_speed =  1;
+	}
+	
+	else if o_player.slow_mode == false path_speed = 5;
 }
-else if o_player.slow_mode == false path_speed = 5;
 
 #region Movement
 move_counter++;
-if (move_counter >= 2*room_speed){
-	new_dir = random_range(50,120);
+if (move_counter >= 1*room_speed){
+	new_dir = irandom_range(50,120);
 	//speed = 1;
 	direction = new_dir;
 	move_counter = 0;
@@ -15,8 +20,9 @@ image_angle += 2;
 #endregion
 
 #region BULLET HELL GO BRR BRR
+
 bullet_counter++;
-if (bullet_counter >= 0.5*room_speed){
+if (bullet_counter >= 0.125*room_speed){
 	with(instance_create_layer(x,y,"Bullet",o_bullet)){
 		direction = o_enemy.image_angle;
 		speed = 10;
@@ -24,6 +30,7 @@ if (bullet_counter >= 0.5*room_speed){
 	}
 	bullet_counter = 0;
 }
+
 #endregion
 
 #region Wrapping map

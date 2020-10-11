@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 4,
+  "bbox_right": 31,
   "bbox_top": 0,
   "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 5,
+  "width": 32,
   "height": 32,
   "textureGroupId": {
     "name": "Default",
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":{"name":"ba5ade16-84b8-4f96-9fd9-84b5a7cecf73","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":{"name":"5bc381c8-ee52-4016-86ba-3a5f0a3db0f5","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -54,7 +55,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 2,
+    "xorigin": 16,
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +66,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ba5ade16-84b8-4f96-9fd9-84b5a7cecf73","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"5bc381c8-ee52-4016-86ba-3a5f0a3db0f5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

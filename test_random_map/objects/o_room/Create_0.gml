@@ -1,7 +1,8 @@
 /// @desc Process
+randomize();
 
 #macro wall_size 64
-delete_blocks = 4;
+delete_blocks = 3;
 width = (room_width - delete_blocks* wall_size) div wall_size;
 height = (room_height - delete_blocks*wall_size) div wall_size;
 width_start = (0 + delete_blocks*wall_size) div wall_size;

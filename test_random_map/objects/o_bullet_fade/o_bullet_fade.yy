@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_enemy",
-    "path": "sprites/s_enemy/s_enemy.yy",
+    "name": "s_bullet_fade",
+    "path": "sprites/s_bullet_fade/s_bullet_fade.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_bullet_fade","path":"objects/o_bullet_fade/o_bullet_fade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_bullet_fade","path":"objects/o_bullet_fade/o_bullet_fade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_enemy",
+  "name": "o_bullet_fade",
   "tags": [],
   "resourceType": "GMObject",
 }

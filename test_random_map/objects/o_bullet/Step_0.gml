@@ -1,4 +1,8 @@
-if (x >= room_width + 1) instance_destroy();
-if (x <= -1) instance_destroy();
-if (y >= room_height + 1) instance_destroy();
-if (y <= -1) instance_destroy() ;
+#region Wrapping map
+
+if (x >= room_width + 1) x = 1;
+if (x <= -1) x = room_width - 1;
+if (y >= room_height + 1) y = 1;
+if (y <= -1) y = room_height -1 ;
+
+#endregion

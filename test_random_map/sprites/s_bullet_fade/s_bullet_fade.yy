@@ -24,13 +24,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"LayerId":{"name":"5bc381c8-ee52-4016-86ba-3a5f0a3db0f5","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"LayerId":{"name":"5bc381c8-ee52-4016-86ba-3a5f0a3db0f5","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_bullet_fade","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"resourceVersion":"1.0","name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},
+    "spriteId": {"name":"s_bullet_fade","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -42,7 +42,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"22a7bd16-3996-48b1-9983-ab9b1174277f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet/s_bullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65bc4cba-8ba5-44a2-9078-467cd39eb6e0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0098b6d3-1aba-4326-86d6-bf2630124cc9","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -59,9 +59,9 @@
     "yorigin": 16,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},
+    "parent": {"name":"s_bullet_fade","path":"sprites/s_bullet_fade/s_bullet_fade.yy",},
     "resourceVersion": "1.3",
-    "name": "s_bullet",
+    "name": "s_bullet_fade",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "s_bullet",
+  "name": "s_bullet_fade",
   "tags": [],
   "resourceType": "GMSprite",
 }

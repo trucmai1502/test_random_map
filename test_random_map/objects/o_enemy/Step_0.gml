@@ -1,36 +1,48 @@
 /// @desc Enemy
 
 if instance_exists(o_player){
-	if(o_player.slow_mode == true){
-		speed = 1;
-		path_speed =  1;
-	}
-	else if o_player.slow_mode == false{
-		path_speed = 5;
+	if (path_speed != 0){
+		if(o_player.slow_mode == true){
+			path_speed =  1;
+		}
+		else{
+			path_speed = 5;
+		}
 	}
 }
 
-#region Movement
-move_counter++;
-if (move_counter >= 1*room_speed){
-	new_dir = irandom_range(50,120);
-	direction = new_dir;
-	move_counter = 0;
-}
-image_angle += 2;
+#region Spin
+
+	move_counter++;
+	if (move_counter >= 1*room_speed){
+		new_dir = irandom_range(50,120);
+		direction = new_dir;
+		move_counter = 0;
+	}
+	image_angle += 2;
+
+
 #endregion
 
 #region BULLET HELL GO BRR BRR
+if (instance_exists(o_bullet)){
+		if (o_player.slow_mode == true){
+			o_bullet.speed = 0;
+			bullet_ = false;
+		}
+		else{
+			bullet_ = true;
+			 o_bullet.speed = 3*o_data_save.death;
+		}
+}
 
 bullet_counter++;
 if (bullet_counter >= 0.125*room_speed){
-	with(instance_create_layer(x,y,"Bullet",o_bullet)){
-		direction = o_enemy.image_angle;
-		if (o_player.slow_mode  == true){
-			speed =1;
+	if (bullet_ = true){
+		with(instance_create_layer(x,y,"Bullet",o_bullet)){
+			direction = o_enemy.image_angle;
+			image_angle = direction;
 		}
-		else speed = 3*o_data_save.death;
-		image_angle = direction;
 	}
 	bullet_counter = 0;
 }
@@ -45,4 +57,3 @@ if (y >= room_height + 1) y = 1;
 if (y <= -1) y = room_height -1 ;
 
 #endregion
-

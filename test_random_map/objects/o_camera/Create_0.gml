@@ -6,3 +6,8 @@ view_h_half = camera_get_view_height(camera)/2;
 
 xTo = xstart;
 yTo = ystart;
+
+//Shake 
+shake_length = 0;
+shake_remain = 0;
+shake_magnutied = 0;

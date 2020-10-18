@@ -23,6 +23,7 @@
     {"id":{"name":"s_bullet","path":"sprites/s_bullet/s_bullet.yy",},"order":4,},
     {"id":{"name":"f_nt","path":"fonts/f_nt/f_nt.yy",},"order":12,},
     {"id":{"name":"s_key","path":"sprites/s_key/s_key.yy",},"order":2,},
+    {"id":{"name":"shake","path":"scripts/shake/shake.yy",},"order":1,},
     {"id":{"name":"o_block","path":"objects/o_block/o_block.yy",},"order":0,},
     {"id":{"name":"r_one","path":"rooms/r_one/r_one.yy",},"order":0,},
   ],

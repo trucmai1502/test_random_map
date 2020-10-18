@@ -18,7 +18,10 @@ if (slow_key && slow_mode_status == false){
 	slow_mode = true;
 }
 
-if slow_mode == true  slow_mode_counter++;
+if slow_mode == true{
+	shake(2,5);
+	slow_mode_counter++;
+}
 
 if (slow_mode_counter >= time_*room_speed && slow_mode == true){
 	slow_mode_status = true;

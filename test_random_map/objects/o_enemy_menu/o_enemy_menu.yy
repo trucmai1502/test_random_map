@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_palyer_hitbox",
-    "path": "sprites/s_palyer_hitbox/s_palyer_hitbox.yy",
+    "name": "s_enemy",
+    "path": "sprites/s_enemy/s_enemy.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,17 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_player","path":"objects/o_player/o_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_player","path":"objects/o_player/o_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_enemy_menu","path":"objects/o_enemy_menu/o_enemy_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_enemy_menu","path":"objects/o_enemy_menu/o_enemy_menu.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Menu",
+    "path": "folders/Objects/GUI/Menu.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_player",
+  "name": "o_enemy_menu",
   "tags": [],
   "resourceType": "GMObject",
 }

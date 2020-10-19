@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_enemy",
+    "path": "sprites/s_enemy/s_enemy.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -18,16 +21,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_mini_map","path":"objects/o_mini_map/o_mini_map.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_enemy","path":"objects/o_enemy/o_enemy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Env",
-    "path": "folders/Objects/Env.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "o_mini_map",
+  "name": "o_enemy",
   "tags": [],
   "resourceType": "GMObject",
 }

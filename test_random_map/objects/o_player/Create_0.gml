@@ -6,4 +6,4 @@ slow_mode_counter = 0;
 slow_mode_status = false;
 slow_mode_wait = 0;
 slow_mode = false;
-time_ = 1;
+time_ = 0.5;

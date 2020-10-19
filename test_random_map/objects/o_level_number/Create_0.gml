@@ -1,0 +1,1 @@
+point = o_data_save.death;

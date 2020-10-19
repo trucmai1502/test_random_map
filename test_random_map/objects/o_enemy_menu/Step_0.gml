@@ -33,16 +33,17 @@ if (instance_exists(o_bullet)){
 		}
 		else{
 			bullet_ = true;
-			 o_bullet.speed = 3*o_data_save.death*0.25;
+			 o_bullet.speed = 10;
 		}
 	}
 }
 
 bullet_counter++;
-if (bullet_counter >= 0.125*room_speed){
+if (bullet_counter >= 1*room_speed){
 	if (bullet_ = true){
 		with(instance_create_layer(x,y,"Bullet",o_bullet)){
-			direction = o_enemy.image_angle;
+			speed = 10;
+			direction = o_enemy_menu.image_angle;
 			image_angle = direction;
 		}
 	}

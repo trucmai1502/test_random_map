@@ -12,7 +12,7 @@ if (slow_key && slow_mode_status == false){
 }
 
 if slow_mode == true{
-	shake(2,10);
+	shake(5,10);
 	slow_mode_counter++;
 }
 

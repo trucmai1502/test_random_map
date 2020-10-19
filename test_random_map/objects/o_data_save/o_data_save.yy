@@ -17,10 +17,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
-  "properties": [
-    {"varType":0,"value":"1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"death","tags":[],"resourceType":"GMObjectProperty",},
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"o_data_save","path":"objects/o_data_save/o_data_save.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "Env",

@@ -33,7 +33,7 @@ if (instance_exists(o_bullet)){
 		}
 		else{
 			bullet_ = true;
-			 o_bullet.speed = 3*o_data_save.death*0.25;
+			 o_bullet.speed = 3*o_data_save.death*0.25 + 1;
 		}
 	}
 }

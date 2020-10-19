@@ -1,5 +1,4 @@
 slow_key = keyboard_check_pressed(ord("Z"));
-shift = keyboard_check(vk_shift);
 
 hsp = (keyboard_check(vk_right) - keyboard_check(vk_left))*walk_spd;
 vsp = (keyboard_check(vk_down) - keyboard_check(vk_up))*walk_spd;
@@ -28,5 +27,8 @@ if slow_mode_wait >= 2*room_speed && slow_mode_status == true{
 	slow_mode_wait = 0;
 }
 
-
-
+if (place_meeting(x,y,o_bullet)){
+	instance_destroy();
+	o_game_restart.game_restart_status = true;	
+	o_data_save.death = 0;
+}

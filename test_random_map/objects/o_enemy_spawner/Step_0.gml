@@ -1,7 +1,7 @@
 enemy_spawn_counter++;
 if enemy_spawn_counter >= 1*room_speed && enemy_spawn == true{
 		//Enemy
-		repeat(o_data_save.death){
+		repeat(o_data_save.death + 1){
 			randomize();
 			random_counter++;
 			if (random_counter >= 1){

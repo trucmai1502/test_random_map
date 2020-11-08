@@ -7,6 +7,8 @@ x += hsp;
 y += vsp;
 
 if (slow_key && slow_mode_status == false){
+	
+	audio_play_sound(snd_stop,1,false);
 	slow_mode = true;
 }
 
@@ -31,4 +33,5 @@ if (place_meeting(x,y,o_bullet)){
 	instance_destroy();
 	o_game_restart.game_restart_status = true;	
 	o_data_save.death = 0;
+	audio_play_sound(snd_choose,1,false);
 }

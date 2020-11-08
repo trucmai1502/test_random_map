@@ -127,8 +127,8 @@
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
-    "name": "test_random_map",
-    "path": "test_random_map.yyp",
+    "name": "Font",
+    "path": "folders/Font.yy",
   },
   "resourceVersion": "1.0",
   "name": "menu_font",
